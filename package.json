@@ -1,0 +1,31 @@
+{
+  "name": "vue3-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.43.0",
+    "eslint-config-alloy": "^5.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.3",
+    "vite": "^4.3.9",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^1.4.2"
+  }
+}
